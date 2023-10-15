@@ -1,0 +1,35 @@
+.MuiPaper-root table thead {
+    background-color: #3946e0;
+}
+
+.MuiPaper-root table thead th {
+    color: #fff;
+    font-size: 14px;
+}
+
+.createRow-butt {
+    background-color: #3946e0;
+    border: 1px solid #3946e0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: inherit;
+    width: 200px;
+}
+
+/*handle status background color dynamic*/
+.MuiPaper-root tbody .No {
+    background-color: rgb(241, 142, 142);
+}
+
+.MuiPaper-root tbody .In {
+    background-color: rgb(154, 241, 154)
+}
+
+.MuiPaper-root tbody .Fi {
+    background-color: rgb(93, 93, 92) !important;
+}
+
+.MuiPaper-root .editIcon {}
+
+.MuiPaper-root .deleteIcon {}

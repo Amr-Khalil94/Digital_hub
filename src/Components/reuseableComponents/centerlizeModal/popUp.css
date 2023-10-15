@@ -1,0 +1,100 @@
+.popUp-parent .MuiPaper-root {
+    padding: 22px;
+}
+
+.popUp-parent h2 {
+    padding-top: 0px;
+}
+
+.MuiDialogContent-root {
+    overflow-x: hidden;
+}
+
+.popUp-parent .serviceModal {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.popUp-parent .submit-img {
+    position: absolute;
+    right: 6%;
+    top: 30%;
+    z-index: 2;
+}
+
+.popUp-parent .uploadFile-parent {
+    position: relative;
+}
+
+.popUp-parent .serviceModal .MuiDialogActions-root {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.delete-btt-container .cancel {
+    color: red !important;
+    border: 1px solid red !important;
+}
+
+.delete-btt-container .submit {
+    background-color: red !important;
+    color: white !important;
+
+}
+
+.btt-container .cancel {
+    color: #3946E0 !important;
+    border: 1px solid #3946E0 !important;
+}
+
+.submit-img,
+.btt-container .submit {
+    background-color: #3946E0 !important;
+    color: white !important;
+}
+
+
+.popUp-parent .MuiInputLabel-root {
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.popUp-parent .MuiInputLabel-animated {
+    padding-left: 10px;
+}
+
+.popUp-parent .MuiDialogActions-root {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.popUp-parent .MuiFormControl-root {
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.popUp-parent .MuiPaper-root {
+    padding: 22px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, rgba(0, 0, 0, 0.12) 0px 9px 46px 8px;
+    margin: 32px;
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100% - 64px);
+    max-width: 600px;
+    width: 800px;
+}
+
+
+@media(max-width: 768px) {
+    .popUp-parent .MuiPaper-root {
+
+        width: 100%;
+    }
+}
